@@ -6,7 +6,10 @@ This project simulates the core components of blockchain technology using Java. 
 🔢 Mining simulation with Proof-of-Work (nonce + difficulty)
 
 🗳️ Consensus simulation for PoW, PoS, and DPoS
+
+
 Folder Structure
+
 Blockchain_Mini_Task/
 ├── Blockchain_Simulation/
 │   ├── Block.java
@@ -20,6 +23,7 @@ Blockchain_Mini_Task/
     └── Consensus_Demo.java
 
 1. Blockchain Simulation:
+   
    i)Created a Block class with: 
        -index, timestamp, data, previousHash, hash, and nonce 
    ii)Implemented a simple hash generator using SHA-256 
@@ -27,7 +31,7 @@ Blockchain_Mini_Task/
    iV)Display all blocks with their hashes
 Understanding how tampering one block affects the entire chain.
 
-2. Mining Simulation (Proof of Work):
+3. Mining Simulation (Proof of Work):
     i)Simulates mining with nonce and difficulty
     ii)Hash is recalculated until it starts with "0000" (or more zeros)
     iii)Shows final hash, nonce used, and time taken
